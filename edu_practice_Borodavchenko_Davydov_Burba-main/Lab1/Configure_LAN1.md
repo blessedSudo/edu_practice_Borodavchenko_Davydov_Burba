@@ -158,3 +158,39 @@ rus-nsk-sw2:
 <img width="547" height="171" alt="image" src="https://github.com/user-attachments/assets/da398c89-b383-4731-8388-ff2f5c108d28" />
 
 *Рис. 19 Создание Management interface на sw2*
+
+## Шаг 10 - Включение SSHv2 на коммутаторах в Нск
+
+rus-nsk-sw1:
+
+<img width="617" height="381" alt="image" src="https://github.com/user-attachments/assets/6831f016-3daa-4c95-8a29-cea5516f684f" />
+
+*Рис.20 Настройка на sw1*
+
+rus-nsk-sw2:
+
+<img width="619" height="269" alt="image" src="https://github.com/user-attachments/assets/bf4a6e32-f22a-4036-b814-e4ac7b9c87a5" />
+
+*Рис.21 Настройка на sw2
+
+## Шаг 11 - Настройка интерфейса f0/24 на SW1 к R1
+
+<img width="458" height="87" alt="image" src="https://github.com/user-attachments/assets/d126e735-25a2-41ab-b562-e5f9fc5adbe7" />
+
+*Рис.22 Настройка f0/24 на SW1*
+
+## Шаг 12 - Настройка банера на SW1 и SW2 
+
+<img width="688" height="141" alt="image" src="https://github.com/user-attachments/assets/62dada95-8ae5-41b1-b249-123d34b99091" />
+
+*Рис.23 Настройка банера на SW1 и SW2*
+
+
+
+
+
+
+
+
+
+
