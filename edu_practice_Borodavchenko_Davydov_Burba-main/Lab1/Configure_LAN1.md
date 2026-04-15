@@ -185,6 +185,20 @@ rus-nsk-sw2:
 
 *Рис.23 Настройка банера на SW1 и SW2*
 
+## Шаг 13 - Настройка f0/2-4 на SW1 и SW2
+
+rus-nsk-sw1:
+
+<img width="649" height="521" alt="image" src="https://github.com/user-attachments/assets/c6003a6f-09b3-4295-b47c-97a7aec6771f" />
+
+*Рис.24 Настройка интерфейсов на SW1*
+
+rus-nsk-sw2:
+
+<img width="654" height="478" alt="image" src="https://github.com/user-attachments/assets/d6ddba8d-f44c-45c4-83c9-1b9af52d0945" />
+
+*Рис.25 Настройка интерфейсов на SW2*
+
 
 
 
