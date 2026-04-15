@@ -63,6 +63,25 @@ rus-nsk-r1:
 </tr>
 </table>
 
+## Шаг 4 - Раздача доменных имён
+rus-msk-sw1:
+
+<img width="286" height="18" alt="image" src="https://github.com/user-attachments/assets/ea99f224-c1a2-43d5-beef-dad3a62c9987" />
+
+*Рис.5 Назначение доменного имени*
+
+rus-msk-r1:
+
+<img width="448" height="72" alt="image" src="https://github.com/user-attachments/assets/f122e299-fa8b-4f14-8338-ba410862e69d" />
+
+*Рис.6 Назначение доменного имени*
+
+rus-msk-r2:
+
+<img width="440" height="86" alt="image" src="https://github.com/user-attachments/assets/83007603-6cff-40d1-a5a3-952da141eda9" />
+
+*Рис.7 Назначение доменного имени*
+
 
 
 
