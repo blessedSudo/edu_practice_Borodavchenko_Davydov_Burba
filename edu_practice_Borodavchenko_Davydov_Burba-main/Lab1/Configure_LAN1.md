@@ -369,6 +369,135 @@ rus-msk-multisw1:
 
 *Рис.52 Пинг с сервера*
 
+# Часть 6
+## Шаг 1 - Настройка доступа по SSH к SW1 и SW2 
+
+rus-nsk-sw1:
+
+<img width="440" height="146" alt="изображение" src="https://github.com/user-attachments/assets/5c18d549-6261-4796-85db-0550b9b8148b" />
+
+*Рис.53 Настройка доступа SSH на sw1*
+
+rus-nsk-sw2:
+
+<img width="425" height="115" alt="изображение" src="https://github.com/user-attachments/assets/02f8707b-c7b7-4a9b-926e-de0e2727e6cf" />
+
+*Рис.54 Настройка доступа SSH на sw2*
+
+## Шаг 2 - Настройка доступ к веб-серверу
+
+rus-nsk-r1:
+
+<img width="572" height="98" alt="изображение" src="https://github.com/user-attachments/assets/03300c19-87a6-4546-ab17-53205b1bbe46" />
+
+*Рис.55 Настройка доступ к веб-серверу*
+
+## Шаг 3 - Запрет ответа на ping R1 и R2 в Москве
+
+rus-msk-r1:
+
+<img width="416" height="126" alt="изображение" src="https://github.com/user-attachments/assets/d5e76c66-2fca-4bb2-bb5f-8e997260c189" />
+
+*Рис.56 Запрет ответа на ping на R1*
+
+rus-msk-r2:
+
+<img width="485" height="144" alt="изображение" src="https://github.com/user-attachments/assets/be52bbf0-c337-402d-926e-6ecd59ac41f0" />
+
+*Рис.57 Запрет ответа на ping на R2*
+
+# Часть 7
+## Шаг 1 - Создание loopback-интерфейса на R1
+
+rus-nsk-r1:
+
+<img width="573" height="114" alt="изображение" src="https://github.com/user-attachments/assets/28fdf07f-2fac-4ae0-b922-61ca01df7ade" />
+
+*Рис.58 Создание loopback-интерфейса на R1*
+
+## Шаг 2 - Настройка loopback на R2 в Москве
+
+rus-msk-r2:
+
+<img width="556" height="114" alt="изображение" src="https://github.com/user-attachments/assets/d04073c8-8ffa-48d3-aa6a-7bfe273c4373" />
+
+*Рис.59 Настройка loopback на R2*
+
+## Шаг 3 - Настройка анонсирования Loopback-интерфейса через RIPv2
+
+rus-nsk-r1:
+
+<img width="307" height="72" alt="изображение" src="https://github.com/user-attachments/assets/02a80a80-5852-424d-8a3b-6d18cf23abc1" />
+
+*Рис.60 Настройка анонсирования loopback-интерфейса*
+
+rus-msk-r2:
+
+<img width="295" height="72" alt="изображение" src="https://github.com/user-attachments/assets/cb62b348-75c1-4f89-afcb-afd490eedcd0" />
+
+*Рис.61 Настройка анонсирования loopback-интерфейса*
+
+## Шаг 4 - Ограничение работы RIPv2
+
+rus-msk-r1:
+
+<img width="185" height="14" alt="изображение" src="https://github.com/user-attachments/assets/2edd2ba1-54ca-4a38-b05c-43dac06f6bef" />
+
+*Рис.62 Ограничение RIPv2 на R1 в Мск*
+
+rus-msk-multisw1:
+
+<img width="193" height="17" alt="изображение" src="https://github.com/user-attachments/assets/6ba769e5-8270-4230-88c4-4e110365baf7" />
+
+*Рис.63 Ограничение RIPv2 на MLS в Мск*
+
+## Шаг 5 - Настройка IP-адресации туннеля 
+
+rus-nsk-r1:
+
+<img width="566" height="143" alt="изображение" src="https://github.com/user-attachments/assets/a7eca41c-7834-48d8-9eed-3ad37fa57a69" />
+
+*Рис.64 Настройка IP-адресации туннеля на R1*
+
+rus-msk-r2:
+
+<img width="554" height="143" alt="изображение" src="https://github.com/user-attachments/assets/9d63a710-5e64-4685-98fb-c633f942c6dd" />
+
+*Рис.65 Настройка IP-адресации туннеля на R2*
+
+## Шаг 6 - Проверка
+
+<img width="510" height="343" alt="изображение" src="https://github.com/user-attachments/assets/1a4ecfe0-e66e-4f6d-a217-8201506d4760" />
+
+*Рис.66 Проверка loopback-интерфейса*
+
+# Часть 8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
