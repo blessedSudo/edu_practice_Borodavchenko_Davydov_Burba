@@ -252,6 +252,59 @@ rus-nsk-sw2:
 
 *Рис.34 Проверка настройки с помощью пинга*
 
+# Часть 3
+
+## Шаг 1 - Настройка имени хоста Multilayer Switch
+
+<img width="446" height="72" alt="изображение" src="https://github.com/user-attachments/assets/7eab1223-a0de-4933-832f-42974aa6fa07" />
+
+*Рис.35 Присваивание имени хоста Multilayer Switch*
+
+## Шаг 2 - Включение возможности маршрутизации на MLS
+
+<img width="172" height="17" alt="изображение" src="https://github.com/user-attachments/assets/93e9be50-08c7-4aef-b080-4af4fe43fa42" />
+
+*Рис.36 Включение маршрутизации
+
+## Шаг 3 - Создание VLAN 100 и VLAN 200 и присваивание имени
+
+<img width="253" height="70" alt="изображение" src="https://github.com/user-attachments/assets/76e941a2-e7de-4a21-ad1c-0fc060f639f2" />
+
+*Рис.37 Создание VLAN 100 и 200 и присваивание имени*
+
+## Шаг 4 - Назначение VLAN для f0/4 и f0/5
+
+<img width="297" height="207" alt="изображение" src="https://github.com/user-attachments/assets/26e2f6b0-7673-497e-9cbf-828f996b0173" />
+
+*Рис.38 Назначение VLAN для интерфейсов*
+
+## Шаг 5 - Включение маршрутизации между VLAN
+
+<img width="558" height="223" alt="изображение" src="https://github.com/user-attachments/assets/960f293b-3df2-4414-8587-222236c4c80a" />
+
+*Рис.39 Включение маршрутизации между VLAN*
+
+## Шаг 6 - Изменение интерфейсов f0/1-3
+
+<img width="615" height="282" alt="изображение" src="https://github.com/user-attachments/assets/cb6c6192-5156-4efb-9c1c-51d1de0fd6a8" />
+
+*Рис.40 Изменение интерфейсов f0/1-3*
+
+## Шаг 7 - Проверка
+
+<img width="407" height="186" alt="изображение" src="https://github.com/user-attachments/assets/457f7780-b6c5-4981-9f85-074966c79a99" />
+
+*Рис.41 Проверка настройки пингом*
+
+# Часть 4
+
+
+
+
+
+
+
+
 
 
 
