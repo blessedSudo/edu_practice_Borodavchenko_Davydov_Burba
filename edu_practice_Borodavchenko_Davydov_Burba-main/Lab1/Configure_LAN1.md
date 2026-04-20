@@ -693,8 +693,6 @@ ntp trusted-key 1
 ntp server 10.0.0.100 key 1
 !
 end
-
-
 ```
 rus-msk-r2:
 ```
@@ -825,8 +823,6 @@ ntp trusted-key 1
 ntp server 10.0.0.100 key 1
 !
 end
-
-
 ```
 rus-msk-sw1:
 ```
