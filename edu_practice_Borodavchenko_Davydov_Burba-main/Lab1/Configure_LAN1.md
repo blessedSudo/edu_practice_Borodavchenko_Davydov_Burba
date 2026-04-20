@@ -472,6 +472,117 @@ rus-msk-r2:
 *Рис.66 Проверка loopback-интерфейса*
 
 # Часть 8
+## Шаг 1 - Настрйока NTP-сервера и Syslog-сервера
+rus-nsk-r1:
+
+<img width="436" height="98" alt="image" src="https://github.com/user-attachments/assets/2e35a392-ac1b-4c45-bc8d-c5c8f555379d" />
+
+*Рис.67 Настрйока NTP-сервера и Syslog-сервера*
+
+
+rus-msk-r1:
+
+<img width="452" height="116" alt="image" src="https://github.com/user-attachments/assets/c5524641-e2e4-4707-ba70-fc937cd2c8f4" />
+
+*Рис.68 Настрйока NTP-сервера и Syslog-сервера*
+
+rus-msk-r2:
+
+<img width="440" height="99" alt="image" src="https://github.com/user-attachments/assets/02070ecd-e981-4e15-8960-c5c0abe1c01b" />
+
+*Рис.69 Настрйока NTP-сервера и Syslog-сервера*
+
+## Шаг 2 - Включение SNMP на R1 и R2 в Мск
+rus-msk-r1:
+
+<img width="500" height="49" alt="image" src="https://github.com/user-attachments/assets/d6a55e92-bdb4-47f1-ade8-acbfe6fec285" />
+
+*Рис.70 Включение SNMP на R1 в Мск*
+
+rus-msk-r2
+
+<img width="486" height="49" alt="image" src="https://github.com/user-attachments/assets/b967ce1f-0a48-4038-bdae-e2cb1224e6dd" />
+
+*Рис.71 Включение SNMP на R2 в Мск*
+
+## Шаг 3 - Настройка AAA и Telnet на R2 в Мск
+rus-msk-r2:
+
+<img width="474" height="86" alt="image" src="https://github.com/user-attachments/assets/5e737d71-5061-4ac3-9955-6fdf6753de32" />
+
+*Рис.72 Настройка AAA и Telnet на R2 в Мск*
+
+## Шаг 4 - Настройка FTP на R1 в Мск
+rus-msk-r1:
+
+<img width="232" height="33" alt="image" src="https://github.com/user-attachments/assets/977e5b21-31a5-471c-be40-bd6bccaeafb3" />
+
+*Рис.72 Настройка FTP на R1 в Мск*
+
+## Шаг 5 - Отправка конфигурации R1 на сервер, с помощью FTP
+rus-msk-r1:
+
+<img width="358" height="116" alt="image" src="https://github.com/user-attachments/assets/e31a6014-bbf1-438e-9926-8c6ad9327e0e" />
+
+*Рис.73 Отправка конфигурации*
+
+## Шаг 6 - Отправка конфигурации R2 на сервер, с помощью TFTP
+rus-msk-r2:
+
+<img width="339" height="116" alt="image" src="https://github.com/user-attachments/assets/f2ae31fa-3df8-43db-b80d-655b0efe158e" />
+
+*Рис.74 Отправка конфигурации*
+
+## Шаг 7 - Проверка на использование команд boot system в R2 в Мск
+rus-msk-r2:
+
+<img width="200" height="27" alt="image" src="https://github.com/user-attachments/assets/55ee8688-8341-4a7b-b7cf-8b07188edd3c" />
+
+*Рис.75 Проверка на использование команд boot system в R2 в Мск*
+
+Команда ничего не выдаёт, значит команд boot system нет
+
+## Шаг 8 - Проверка подключения к R2 в Мск по telnet
+Для начала создадим пользователя Standby на R2.
+
+rus-msk-r2:
+
+<img width="308" height="18" alt="image" src="https://github.com/user-attachments/assets/13809c60-4791-4cce-a7d5-44b5a6a0ad34" />
+
+*Рис.76 Создание пользователя Standby*
+
+Для работы на R2 по telnet нужео поставить пароль для перехода в привилегерованный режим.
+
+rus-msk-r2:
+
+<img width="233" height="16" alt="image" src="https://github.com/user-attachments/assets/e94b7ef9-c161-4e19-ad11-2950ebbf0d2e" />
+
+*Рис.77 Пароль для привилегерованного режима*
+
+Дальше можем подключаться по telnet.
+
+rus-msk-r1:
+
+<img width="611" height="159" alt="image" src="https://github.com/user-attachments/assets/a16d6036-3c5d-4bfd-a271-d7514d707042" />
+
+*Рис.78 Подключение к R2 по telnet*
+
+## Шаг 9 - Изменение локального имени пользователя в R2
+rus-msk-r2:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
