@@ -167,3 +167,48 @@ R3:
 <img width="353" height="42" alt="изображение" src="https://github.com/user-attachments/assets/9515e671-6c57-49f9-9be2-7477791ff7cc" />
 
 *Рис.28 Создаём маршрут по умолчанию на R1973*
+
+## Шаг 5 - Проверка
+
+<img width="572" height="211" alt="изображение" src="https://github.com/user-attachments/assets/a2945c7f-c6de-4451-88d4-f4129d7a7a17" />
+
+*Рис.29 Проверка bgp*
+
+# Часть 5
+## Шаг 1 - Проверяем поддержку лицензии
+
+<img width="491" height="302" alt="изображение" src="https://github.com/user-attachments/assets/53808926-e54f-42c2-961a-2edc932bc461" />
+
+*Рис.30 Выполняем проверку на R3*
+
+## Шаг 2 - Устанавливаем лицензию UCK9
+
+<img width="470" height="19" alt="изображение" src="https://github.com/user-attachments/assets/7f9ede43-e1bc-4e60-b228-883296a570e9" />
+
+*Рис.31 Установка лицензии*
+
+<img width="619" height="129" alt="изображение" src="https://github.com/user-attachments/assets/7db4b336-5458-4a4b-a463-e455cf08f9b8" />
+
+*Рис.32 После установочный вывод*
+
+## Шаг 3 - Устанавливаем лицензию SecurityK9
+
+<img width="486" height="21" alt="изображение" src="https://github.com/user-attachments/assets/2025625c-bad8-4894-a267-6c54c5f84d85" />
+
+*Рис.33 Установка лицензии*
+
+<img width="605" height="112" alt="изображение" src="https://github.com/user-attachments/assets/f97142ca-ca8d-41d8-8bc3-00730cefd73a" />
+
+*Рис.34 После установочный вывод*
+
+## Шаг 4 - Сохранение конфигурации
+
+<img width="201" height="55" alt="изображение" src="https://github.com/user-attachments/assets/cd872b3d-db5c-493a-b089-0560a161283c" />
+
+*Рис.35 Сохранение конфигурации*
+
+## Шаг 5 - перезагружаем маршрутизатор
+
+<img width="424" height="47" alt="изображение" src="https://github.com/user-attachments/assets/d5f28264-40ce-4c7d-ab72-bbf2b42805c0" />
+
+*Рис.36 Перезагрузка маршрутизатора*
