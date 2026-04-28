@@ -362,11 +362,97 @@
 
 *Рис.64 Настройка имени и портов на SwitchB*
 
-## Шаг 22 - Проверка звонка 
+## Шаг 22 - Проверка звонка внутри второй сети
 
 <img width="1352" height="639" alt="изображение" src="https://github.com/user-attachments/assets/ce02b891-2d56-43a7-943c-0b1ca4374b66" />
 
-*Рис.65 Проверка звонка*
+*Рис.65 Проверка звонка внутри второй сети*
+
+## Шаг 23 - Настройка dial-peer
+
+RouterA:
+
+<img width="454" height="183" alt="изображение" src="https://github.com/user-attachments/assets/d5f7cb7a-7d11-481e-977a-efec892de592" />
+
+*Рис.66 Настройка dial-peer на RouterA*
+
+RouterB:
+
+<img width="444" height="111" alt="изображение" src="https://github.com/user-attachments/assets/18156c3f-599b-4586-b39b-74699621b562" />
+
+*Рис.67 Настройка dial-peer на RouterB*
+
+## Шаг 24 - Проверка звонка между двумя сетями 
+
+<img width="1401" height="709" alt="изображение" src="https://github.com/user-attachments/assets/cdfa578b-522b-4901-958b-90c8e0a47249" />
+
+*Рис.68 Проверка звонка между двумя сетями*
+
+## Шаг 25 - Проверка пинга
+
+<img width="461" height="194" alt="изображение" src="https://github.com/user-attachments/assets/59bfa496-0c9f-4294-83b1-0f6ec051c570" />
+
+*Рис.69 Проверка пинга*
+
+
+# Лабораторная работа №8. Построение сети IP-телефонии между удаленными маршрутизаторами
+
+## Шаг 1 - Создание топологии
+
+<img width="596" height="506" alt="изображение" src="https://github.com/user-attachments/assets/26cb6917-1bbe-4f8a-b2df-3d8dd017e985" />
+
+*Рис.70 Создание топологии*
+
+## Шаг 2 - Настройка S0/1/0 на CMERouter
+
+<img width="443" height="55" alt="изображение" src="https://github.com/user-attachments/assets/6f85e9fc-5f49-44aa-a6a3-dccf31d1dd52" />
+
+*Рис.71 Настройка S0/1/0 на CMERouter*
+
+## Шаг 3 - Настройка f0/0 и подинтерфейсов на CMERouter
+
+<img width="205" height="30" alt="изображение" src="https://github.com/user-attachments/assets/3a164c62-1392-497f-a554-f68b323ca631" />
+<img width="621" height="197" alt="изображение" src="https://github.com/user-attachments/assets/03ba76e6-176d-4a6c-98c9-2d95f0ed4806" />
+
+*Рис.72  Настройка f0/0 и подинтерфейсов на CMERouter*
+
+## Шаг 4 - Настройка eigrp на CMERouter
+
+<img width="298" height="58" alt="изображение" src="https://github.com/user-attachments/assets/d6d49a7c-e068-4058-af5a-1c0ffcf0c95e" />
+
+*Рис.73 Настройка eigrp на CMERouter*
+
+## Шаг 5 - Настройка CME на CMERouter
+
+<img width="464" height="75" alt="изображение" src="https://github.com/user-attachments/assets/03ade4fe-8c33-4602-9bc4-8987c91617e4" />
+
+*Рис.74 Настройка CME на CMERouter*
+
+## Шаг 6 - Настройка телефонов
+
+<img width="633" height="127" alt="изображение" src="https://github.com/user-attachments/assets/57776de3-ee99-44b3-a406-482470fc4485" />
+
+*Рис.75 Настройка номеров*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
