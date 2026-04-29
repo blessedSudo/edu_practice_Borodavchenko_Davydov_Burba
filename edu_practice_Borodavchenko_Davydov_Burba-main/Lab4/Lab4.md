@@ -399,7 +399,7 @@ RouterB:
 
 ## Шаг 1 - Создание топологии
 
-<img width="596" height="506" alt="изображение" src="https://github.com/user-attachments/assets/26cb6917-1bbe-4f8a-b2df-3d8dd017e985" />
+<img width="640" height="518" alt="изображение" src="https://github.com/user-attachments/assets/399740de-6e3a-4d11-9133-04653cca3055" />
 
 *Рис.70 Создание топологии*
 
