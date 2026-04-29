@@ -403,36 +403,169 @@ RouterB:
 
 *Рис.70 Создание топологии*
 
-## Шаг 2 - Настройка S0/1/0 на CMERouter
+## Шаг 2 - Назначение имени и настройка S0/1/0 на CMERouter
 
-<img width="443" height="55" alt="изображение" src="https://github.com/user-attachments/assets/6f85e9fc-5f49-44aa-a6a3-dccf31d1dd52" />
+<img width="451" height="170" alt="изображение" src="https://github.com/user-attachments/assets/973022ba-e90d-4ecf-a8b5-0b31c83a352e" />
 
-*Рис.71 Настройка S0/1/0 на CMERouter*
+*Рис.71 Назначение имени и настройка S0/1/0 на CMERouter*
 
-## Шаг 3 - Настройка f0/0 и подинтерфейсов на CMERouter
+## Шаг 3 - Настройка EIGRP на CMERouter
 
-<img width="205" height="30" alt="изображение" src="https://github.com/user-attachments/assets/3a164c62-1392-497f-a554-f68b323ca631" />
-<img width="621" height="197" alt="изображение" src="https://github.com/user-attachments/assets/03ba76e6-176d-4a6c-98c9-2d95f0ed4806" />
+<img width="297" height="57" alt="изображение" src="https://github.com/user-attachments/assets/68339a73-f973-455f-815e-182f268e6cb9" />
 
-*Рис.72  Настройка f0/0 и подинтерфейсов на CMERouter*
+*Рис.72 Настройка EIGRP на CMERouter*
 
-## Шаг 4 - Настройка eigrp на CMERouter
+## Шаг 4 - Включение f0/0 и настройка подынтерфейсво на CMERouter
 
-<img width="298" height="58" alt="изображение" src="https://github.com/user-attachments/assets/d6d49a7c-e068-4058-af5a-1c0ffcf0c95e" />
+<img width="617" height="393" alt="изображение" src="https://github.com/user-attachments/assets/1aaaaa64-1676-4e3e-9520-b032821d1dbf" />
 
-*Рис.73 Настройка eigrp на CMERouter*
+*Рис.73 Включение f0/0 и настройка подынтерфейсво на CMERouter*
 
-## Шаг 5 - Настройка CME на CMERouter
+## Шаг 5 - Настройка DHCP на CMERouter
 
-<img width="464" height="75" alt="изображение" src="https://github.com/user-attachments/assets/03ade4fe-8c33-4602-9bc4-8987c91617e4" />
+<img width="395" height="153" alt="изображение" src="https://github.com/user-attachments/assets/719573e0-8ab7-428e-b779-eb9aad1a2aa4" />
 
-*Рис.74 Настройка CME на CMERouter*
+*Рис.74 Настройка DHCP на CMERouter*
 
-## Шаг 6 - Настройка телефонов
+## Шаг 6 - Настройка CME на CMERouter
 
-<img width="633" height="127" alt="изображение" src="https://github.com/user-attachments/assets/57776de3-ee99-44b3-a406-482470fc4485" />
+<img width="474" height="87" alt="изображение" src="https://github.com/user-attachments/assets/04c340b2-74ce-4979-b950-8e06759bd471" />
 
-*Рис.75 Настройка номеров*
+*Рис.75 Настройка CME на CMERouter*
+
+## Шаг 7 - Создание номеров телефонов 
+
+<img width="635" height="153" alt="изображение" src="https://github.com/user-attachments/assets/5e845df9-7ac4-4c02-ac7c-d44171f0db50" />
+
+*Рис.76 Создание номеров*
+
+## Шаг 8 - Настройка dial-peer на CMERouter
+
+<img width="442" height="59" alt="изображение" src="https://github.com/user-attachments/assets/29a2dfa7-1cb0-4914-949e-63ef730cf562" />
+
+*Рис.77 Настройка dial-peer на CMERouter*
+
+## Шаг 9 - Настройка CMESwitch, настройка транка к роутеру
+
+<img width="618" height="182" alt="изображение" src="https://github.com/user-attachments/assets/1ee2fcad-fc37-4a65-b1ab-e9ac933ff788" />
+
+*Рис.78 Настройка CMESwitch, настройка транка к роутеру*
+
+## Шаг 10 - Создание VLAN  и настройка интерфейсов телеофнов на CMESwitch
+
+<img width="186" height="56" alt="изображение" src="https://github.com/user-attachments/assets/18c2810a-1576-4031-89ac-5ff8486bf743" />
+
+*Рис.79 Создание VLAN*
+
+<img width="329" height="124" alt="изображение" src="https://github.com/user-attachments/assets/73a5c68c-a964-4b88-8641-f7e00c0424b5" />
+
+*Рис.80 Настройка интерфейсов телефонов*
+
+## Шаг 11 - Назначение имени RemoteRouter и настройка s0/1/0
+
+<img width="455" height="158" alt="изображение" src="https://github.com/user-attachments/assets/d667890d-9289-4d6c-b4e7-4c2b94b80866" />
+
+*Рис.81 Назначение имени RemoteRouter и настройка s0/1/0*
+
+## Шаг 12 - Включение f0/0 и настройка подынтерфейсов на RemoteRouter
+
+<img width="624" height="353" alt="изображение" src="https://github.com/user-attachments/assets/a2ecb86d-7518-4b97-8dda-654dd220183d" />
+
+*Рис.82 Включение f0/0 и настройка подынтерфейсов на RemoteRouter*
+
+## Шаг 13 - Настройка EIGRP на RemoteRouter
+
+<img width="569" height="113" alt="изображение" src="https://github.com/user-attachments/assets/ba775d97-eb07-48f7-8222-8dca37dd07f3" />
+
+*Рис.83 Настройка EIGRP на RemoteRouter*
+
+## Шаг 14 - Настройка DHCP на RemoteRouter
+
+<img width="420" height="167" alt="изображение" src="https://github.com/user-attachments/assets/16d0e078-6979-47c6-986a-62df1ef46de2" />
+
+*Рис.84 Настройка DHCP на RemoteRouter*
+
+## Шаг 15 - Настройка CME на RemoteRouter
+
+<img width="500" height="84" alt="изображение" src="https://github.com/user-attachments/assets/8c5ec10d-cff5-4ac5-8600-ccca782f595b" />
+
+*Рис.85 Настройка CME на RemoteRouter*
+
+## Шаг 16 - Настройка телефонного номера
+
+<img width="626" height="68" alt="изображение" src="https://github.com/user-attachments/assets/edd5fa06-7946-4f62-833b-58b4d886caaf" />
+
+*Рис.86 Настройка телефонного номера*
+
+## Шаг 17 - Настройка dial-peer на RemoteRouter
+
+<img width="460" height="70" alt="изображение" src="https://github.com/user-attachments/assets/00ec46e8-95e3-49a4-819c-71062ac7d08d" />
+
+*Рис.87 Настройка dial-peer на RemoteRouter*
+
+## Шаг 18 - Назначние имени RemoteSwitch и настройка f0/1 на trunk
+
+<img width="625" height="189" alt="изображение" src="https://github.com/user-attachments/assets/ba371b2d-455f-4ec8-8df2-d717aa0683d2" />
+
+*Рис.88 Назначние имени RemoteSwitch и настройка f0/1 на trunk*
+
+## Шаг 19 - Создание VLAN 30,40 и настройка f0/2 на RemoteSwitch
+
+<img width="366" height="111" alt="изображение" src="https://github.com/user-attachments/assets/e3135cbf-d0eb-4f4a-b338-d06f108d48c9" />
+
+*Рис.89 Создание VLAN 30,40 и настройка f0/2 на RemoteSwitch*
+
+## Шаг 20 - Проверка пинга между роутерами
+
+<img width="509" height="88" alt="изображение" src="https://github.com/user-attachments/assets/53766457-ec8f-47b9-b3be-4a9dea5499d2" />
+
+*Рис.90 Проверка пинга между роутерами*
+
+## Шаг 21 - Проверка звонка внутри одной сети и между ними
+
+Внутри сети:
+
+<img width="1430" height="713" alt="изображение" src="https://github.com/user-attachments/assets/37799674-957e-43e4-a63e-d6716fd2ba40" />
+
+*Рис.91 Проверка внутри сети*
+
+Между сетями:
+
+<img width="1403" height="711" alt="изображение" src="https://github.com/user-attachments/assets/a1890f78-1e40-4f20-ac21-57f76236cb4b" />
+
+*Рис.92 Проверка между сетями*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
