@@ -222,7 +222,7 @@ R3:
 
 ## Шаг 2 - Проверка на PC0
 
-<img width="404" height="281" alt="изображение" src="https://github.com/user-attachments/assets/66ceae73-1b8d-4148-a42e-401ca788d479" />
+<img width="692" height="305" alt="image" src="https://github.com/user-attachments/assets/428e8bf2-e5e8-45e0-9435-737e2d181bfe" />
 
 *Рис.38 IP Configuration на PC0*
 
