@@ -356,45 +356,35 @@ R3:
 
 *Рис.62 Настройка EIGRPv6 на R1973*
 
-## Шаг 2 - Задать номер автономной системы
-
-<img width="264" height="18" alt="изображение" src="https://github.com/user-attachments/assets/e4b41e33-525d-4ed1-83c9-912bb5e6287f" />
-
-*Рис.63 Выдача номера на R3*
-
-<img width="291" height="15" alt="изображение" src="https://github.com/user-attachments/assets/77a69b9e-0ed5-483e-895b-3d603e214849" />
-
-*Рис.64 Выдача номера на R1973*
-
-## Шаг 3 - Назначение router-id
+## Шаг 2 - Назначение router-id
 
 <img width="276" height="34" alt="изображение" src="https://github.com/user-attachments/assets/14db794e-9311-4c19-b6a7-0afd94b57d14" />
 
-*Рис.65 Назначение на R3*
+*Рис.63 Назначение на R3*
 
 <img width="300" height="27" alt="изображение" src="https://github.com/user-attachments/assets/f5773750-a589-4576-baf3-4084c18d479d" />
 
-*Рис.66 Назначение на R1973*
+*Рис.64 Назначение на R1973*
 
-## Шаг 4 - Объявление loopback 
+## Шаг 3 - Объявление loopback 
 
 <img width="243" height="71" alt="изображение" src="https://github.com/user-attachments/assets/243bfec2-7cf3-4d8d-9a46-85e0a3e31542" />
 
-*Рис.67 Объявляем loopback на R1973*
+*Рис.65 Объявляем loopback на R1973*
 
 <img width="209" height="31" alt="изображение" src="https://github.com/user-attachments/assets/e488abaa-abd6-47c2-a61e-1d6d7667d781" />
 
-*Рис.68 Объявляем loopback на R3*
+*Рис.66 Объявляем loopback на R3*
 
-## Шаг 5 - Настройка ipv6 маршрут по умолчанию
+## Шаг 4 - Настройка ipv6 маршрут по умолчанию
 
 <img width="346" height="17" alt="изображение" src="https://github.com/user-attachments/assets/fb11580b-9fe8-4053-b6ed-22cde60361c8" />
 
-*Рис.69 Настраиваем на R1973*
+*Рис.67 Настраиваем на R1973*
 
 <img width="547" height="100" alt="изображение" src="https://github.com/user-attachments/assets/86403f5a-cd39-4ee9-a4cc-11d0db6670b9" />
 
-*Рис.70 Проверка на R3*
+*Рис.68 Проверка на R3*
 
 ## Полная конфигурация
 
