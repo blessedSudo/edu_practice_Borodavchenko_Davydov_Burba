@@ -1049,6 +1049,22 @@ line vty 0 4
 !
 end
 ```
+PC0:
+
+<img width="686" height="293" alt="image" src="https://github.com/user-attachments/assets/c795c49d-5f55-45ac-a98f-d5c6a989eae8" />
+
+*Рис.69 Конфигурация PC0*
+
+DHCP Server:
+
+<img width="686" height="461" alt="image" src="https://github.com/user-attachments/assets/42e1ff8e-82bf-43ea-85cb-026ca6f4f1be" />
+
+*Рис.70 Конфигурация DHCP*
+
+<img width="685" height="276" alt="image" src="https://github.com/user-attachments/assets/4a784f4e-852a-4a59-88e1-015aa24825e0" />
+
+*Рис.71 Конфмгурация DHCP Server*
+
 
 
 
